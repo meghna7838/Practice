@@ -1,0 +1,14 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "igniting our app",
+  "main": "y",
+  "scripts": {
+    "test": "jtest"
+  },
+  "author": "Meghna Tandon",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.14.4"
+  }
+}
