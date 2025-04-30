@@ -12,7 +12,8 @@ If we want to build a structure like
     </div>
 </div>
 */
-
+import React from "react";
+import ReactDOM from "react-dom/client";
 const parent = 
 React.createElement(
     "div", {id:"parent"},
