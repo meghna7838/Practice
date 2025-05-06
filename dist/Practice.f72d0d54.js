@@ -680,42 +680,38 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _client = require("react-dom/client");
 var _clientDefault = parcelHelpers.interopDefault(_client);
+//Functional component in react
+const Heading = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+            children: "Functional component"
+        }, void 0, false, {
+            fileName: "app.js",
+            lineNumber: 9,
+            columnNumber: 10
+        }, undefined)
+    }, void 0, false, {
+        fileName: "app.js",
+        lineNumber: 9,
+        columnNumber: 5
+    }, undefined);
+_c = Heading;
 //React Element
 const jsxheading = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
     id: "heading",
     className: "head",
-    children: "React JSX element"
-}, void 0, false, {
+    children: [
+        "React JSX element",
+        Heading()
+    ]
+}, void 0, true, {
     fileName: "app.js",
-    lineNumber: 6,
+    lineNumber: 13,
     columnNumber: 20
 }, undefined);
-//Functional component in react
-const Heading = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                children: "Functional component"
-            }, void 0, false, {
-                fileName: "app.js",
-                lineNumber: 11,
-                columnNumber: 10
-            }, undefined),
-            jsxheading
-        ]
-    }, void 0, true, {
-        fileName: "app.js",
-        lineNumber: 11,
-        columnNumber: 5
-    }, undefined);
-_c = Heading;
 console.log(jsxheading);
 console.log(Heading);
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
-root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Heading, {}, void 0, false, {
-    fileName: "app.js",
-    lineNumber: 18,
-    columnNumber: 13
-}, undefined));
+root.render(jsxheading);
 var _c;
 $RefreshReg$(_c, "Heading");
 
